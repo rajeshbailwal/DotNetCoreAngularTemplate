@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-declare const $: any;
+declare var $: any;
 declare interface RouteInfo {
     path: string;
     title: string;
